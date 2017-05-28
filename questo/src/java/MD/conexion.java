@@ -20,7 +20,7 @@ public class conexion {
         try
         {
           Class.forName("oracle.jdbc.driver.OracleDriver");
-          conexion = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "12345");
+          conexion = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:QuestoDB", "system", "questo");
           System.out.println("Conectado!!");
         }catch(Exception ex)
         {
